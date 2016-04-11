@@ -5,22 +5,30 @@ Desenvolver uma função em C que calcule uma aproximação da raiz quadrada de 
 
 ### Solução em português estruturado:
 ```portugol
-var numeroReal : real
-funcao main():real
-início
-	LEIA numeroReal
-	ESCREVA raizq(numeroReal)
-fimfuncao
+ALGORITMO "BCCPOLYA"
 
-funcao raizq(numeroReal:real): real
-início
-	var resultado:real
-	resultado <- numeroReal
-	para i de 0 ate 200 passo 1 faca
-		resultado <- resultado/2 + numeroReal/(2*resultado);
-	fimpara
-	retorna resultado
-fimfuncao
+FUNCAO raizQuadrada(numero: real): real
+VAR
+resultado: real
+i: inteiro
+INICIO
+	resultado <- numero
+	PARA i DE 0 ATE 200 PASSO 1 FACA
+		resultado <- resultado/2 + numero/(2*resultado)
+	FIMPARA
+	RETORNE resultado
+FIMFUNCAO
+
+PROCEDIMENTO main()
+VAR numeroReal: real
+INICIO
+   LEIA (numeroReal)
+   ESCREVA(raizQuadrada(numeroReal))
+FIMPROCEDIMENTO
+
+INICIO
+main()
+FIMALGORITMO
 ```
 
 ### Solução em fluxograma:

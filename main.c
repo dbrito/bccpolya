@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 double raizq(double);
 
 int main(void) {  
@@ -9,12 +10,11 @@ int main(void) {
     return(0);
 }
 
-
-double raizq (double n) {
+double raizq (double numeroReal) {
     int x;
-    double q = n;    
+    double resultado = numeroReal;    
     for (x = 0; x < 200; ++x) {
-    	q = q/2 + n/(2*q);	
+    	resultado = resultado/2 + numeroReal/(2*resultado);	
     }            
-    return(q);    
+    return(resultado);    
 }
