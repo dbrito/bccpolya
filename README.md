@@ -34,7 +34,7 @@ FIMALGORITMO
 ### Solução em fluxograma:
 ![Fluxograma](./fluxograma.png "Fluxograma")
 
-### Porque Polya no nome do repositorio ?
+### Porque "Polya" no nome do repositório ?
 Porque o "Polya" vem de [George Pólya](https://pt.wikipedia.org/wiki/George_P%C3%B3lya) que foi um grande matemático que contribuiu muito para a [Heurística](https://pt.wikipedia.org/wiki/Heur%C3%ADstica) que consiste em um método que tem como objetivo encontrar soluções para um problema, ou seja é uma referencia que esta completamente relacionada com o assunto tarefa.
 
-[por Douglas dos Santos Brito](https://github.com/dbrito)
+por [Douglas dos Santos Brito](https://github.com/dbrito)
